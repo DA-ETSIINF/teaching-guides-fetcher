@@ -15,8 +15,12 @@
             "code": "09ID"
         },
         {
-            "name": "Máster",
+            "name": "MUIT",
             "code": "09AQ"
+        },
+        {
+            "name": "Máster ciberseguridad",
+            "code": "09AW"
         }
     ],
     "departments": [

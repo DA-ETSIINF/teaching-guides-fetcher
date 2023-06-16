@@ -12,7 +12,6 @@ COPY public /srv/public
 COPY routes /srv/routes
 COPY views /srv/views
 COPY app.js /srv/app.js
-COPY schoolData.json /srv/schoolData.json
 
 EXPOSE 3000
 
