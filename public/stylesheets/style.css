@@ -1,8 +1,37 @@
+/* Set the default font family and size */
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
 }
 
+/* Style the page title */
+h1 {
+  color: #105d6d;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the section titles */
+h2 {
+  color: #871515;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Style the links */
 a {
-  color: #00B7FF;
+  color: #ff6600;
+  text-decoration: none;
+  margin: 15px;
+  font-size: 22px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Set the link styles for visited links */
+a:visited {
+  color: #eaab8b;
 }
