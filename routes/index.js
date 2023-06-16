@@ -4,10 +4,7 @@ var controller = require('../controllers/main')
 var specials = require('../controllers/specials')
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index');
-});
-
+router.get('/', controller.index);
 
 /*router.get('/titulaciones/09TT/4', specials.get_09TT);
 router.get('/titulaciones/09BM/4', specials.get_09BM);

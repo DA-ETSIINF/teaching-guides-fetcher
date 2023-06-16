@@ -1,0 +1,56 @@
+{
+    "academic_year": "2023-24",
+    "anio": "202324",
+    "degrees": [
+        {
+            "name": "Teleco",
+            "code": "09TT"
+        },
+        {
+            "name": "Bio",
+            "code": "09BM"
+        },
+        {
+            "name": "Datos",
+            "code": "09ID"
+        },
+        {
+            "name": "Máster",
+            "code": "09AQ"
+        }
+    ],
+    "departments": [
+        {
+            "name": "SSR",
+            "code": "D550"
+        },
+        {
+            "name": "TFB",
+            "code": "D560"
+        },
+        {
+            "name": "MAT",
+            "code": "D540"
+        },
+        {
+            "name": "DIE",
+            "code": "D530"
+        },
+        {
+            "name": "DIT",
+            "code": "D520"
+        },
+        {
+            "name": "ELF",
+            "code": "D510"
+        },
+        {
+            "name": "LIA",
+            "code": "D240"
+        },
+        {
+            "name": "IOR",
+            "code": "D400"
+        }
+    ]
+}
