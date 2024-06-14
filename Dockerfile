@@ -1,17 +1,10 @@
-FROM node:18.16.0
-
-COPY package.json /srv/package.json
-COPY yarn.lock /srv/yarn.lock
+FROM node:20.13.1
 
 WORKDIR /srv
-RUN yarn install
 
-COPY bin /srv/bin
-COPY controllers /srv/controllers
-COPY public /srv/public
-COPY routes /srv/routes
-COPY views /srv/views
-COPY app.js /srv/app.js
+COPY . .
+
+RUN yarn install
 
 EXPOSE 3000
 
