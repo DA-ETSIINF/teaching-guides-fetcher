@@ -81,7 +81,7 @@ exports.get_subjects_by_department = async (req, res, next) => {
     if (response_plans.status === 200) {
         const plans = await response_plans.json();
         for (plan in plans) {
-            if (!plans[plan].codigo.startsWith("09")) continue;
+            if (!plans[plan].codigo.startsWith(school)) continue;
             url_subjects = 'https://www.upm.es/wapi_upm/academico/comun/index.upm/v2/departamento.json/' + req.params.code + '/' + plans[plan].codigo + '/asignaturas?anio=' + anio
             const response_subjects = await fetch(url_subjects);
             if (response_subjects.status === 200) {
