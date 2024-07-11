@@ -1,5 +1,6 @@
 const schoolData = require('../schoolData.json');
 const anio = schoolData.academic_year.replace('-','')
+const school = schoolData.school
 
 exports.index = async (req, res, next) => {
     res.render('index', { degrees: schoolData.degrees, departments: schoolData.departments });
@@ -84,6 +85,7 @@ exports.get_subjects_by_department = async (req, res, next) => {
             if (!plans[plan].codigo.startsWith(school)) continue;
             url_subjects = 'https://www.upm.es/wapi_upm/academico/comun/index.upm/v2/departamento.json/' + req.params.code + '/' + plans[plan].codigo + '/asignaturas?anio=' + anio
             const response_subjects = await fetch(url_subjects);
+            console.log(response_subjects)
             if (response_subjects.status === 200) {
                 const data = await response_subjects.json();
                 for (subject in data){

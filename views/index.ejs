@@ -9,11 +9,11 @@
 <body style="font-size: larger;">
   <h1>Titulaciones:</h1><br/>
   <% for (let degree of degrees) { %>
-    <a href="/titulaciones/<%= degree.code %>"><%= degree.name %></a><br/>
+    <a href="/titulaciones/<%= degree.code %>"><div class="container"><%= degree.name %><br/></div></a>
   <% } %>
   <h1>Departamentos:</h1><br/>
   <% for (let department of departments) { %>
-    <a href="/departamentos/<%= department.code %>"><%= department.name %></a><br/>
+    <a href="/departamentos/<%= department.code %>"> <div class="container"><%= department.name %><br/></div></a>
   <% } %>
 </body>
 </html>

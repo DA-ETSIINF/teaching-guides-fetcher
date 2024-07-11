@@ -1,6 +1,7 @@
 /* Set the default font family and size */
 body {
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
+  padding:2%;
   font-size: 16px;
 }
 
@@ -21,17 +22,37 @@ h2 {
 
 /* Style the links */
 a {
-  color: #ff6600;
+  color: white;
   text-decoration: none;
-  margin: 15px;
+  height: fit-content;
   font-size: 22px;
 }
 
 a:hover {
-  text-decoration: underline;
+  /**text-decoration: underline;**/
 }
 
 /* Set the link styles for visited links */
 a:visited {
-  color: #eaab8b;
+  /**color: #eaab8b;**/
+}
+
+.container{
+  border-style:solid;
+  border-width:2px;
+  border-color: rgb(189, 189, 189);
+  margin: 0vh 0vh 0.7vh 0vh;
+  padding:1vh 1vw;
+  background: linear-gradient(65deg, rgb(246, 85, 85) 0%, rgb(245, 85, 86) 0%, rgb(252, 207, 49) 100%);
+  background: -webkit-linear-gradient(65deg, rgb(246, 85, 85) 0%, rgb(245, 85, 86) 0%, rgb(252, 207, 49) 100%);
+  
+}
+
+.container :only-child{
+  margin:15px;
+}
+
+.container:hover{
+  color:rgb(210,210,210);
+  text-decoration: none;
 }
