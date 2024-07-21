@@ -46,6 +46,7 @@ a:visited {
   /*background: linear-gradient(65deg, rgb(246, 85, 85) 0%, rgb(245, 85, 86) 0%, rgb(252, 207, 49) 100%);
   background: -webkit-linear-gradient(65deg, rgb(246, 85, 85) 0%, rgb(245, 85, 86) 0%, rgb(252, 207, 49) 100%);*/
   background: linear-gradient(65deg,rgb(0, 77, 127) 0%, rgb(29, 160, 207) 100%);
+  background: -webkit-linear-gradient(65deg,rgb(0, 77, 127) 0%, rgb(29, 160, 207) 100%);
   
 }
 
