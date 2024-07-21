@@ -7,7 +7,7 @@ body {
 
 /* Style the page title */
 h1 {
-  color: #105d6d;
+  color: rgb(0, 77, 127);
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -43,8 +43,9 @@ a:visited {
   border-color: rgb(189, 189, 189);
   margin: 0vh 0vh 0.7vh 0vh;
   padding:1vh 1vw;
-  background: linear-gradient(65deg, rgb(246, 85, 85) 0%, rgb(245, 85, 86) 0%, rgb(252, 207, 49) 100%);
-  background: -webkit-linear-gradient(65deg, rgb(246, 85, 85) 0%, rgb(245, 85, 86) 0%, rgb(252, 207, 49) 100%);
+  /*background: linear-gradient(65deg, rgb(246, 85, 85) 0%, rgb(245, 85, 86) 0%, rgb(252, 207, 49) 100%);
+  background: -webkit-linear-gradient(65deg, rgb(246, 85, 85) 0%, rgb(245, 85, 86) 0%, rgb(252, 207, 49) 100%);*/
+  background: linear-gradient(65deg,rgb(0, 77, 127) 0%, rgb(29, 160, 207) 100%);
   
 }
 

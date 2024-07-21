@@ -1,61 +1,81 @@
 {
-    "academic_year": "2024-25",
-    "anio": "202425",
-    "school": "09",
+    "academic_year": "2023-24",
+    "anio": "202324",
+    "school": "10",
     "degrees": [
         {
-            "name": "Teleco",
-            "code": "09TT"
+            "code": "10II",
+            "name": "GRADO EN INGENIERIA INFORMATICA"
         },
         {
-            "name": "Bio",
-            "code": "09BM"
+            "code": "10ID",
+            "name": "DOBLE GRADO EN INGENIERIA INFORMATICA Y EN ADE"
         },
         {
-            "name": "Datos",
-            "code": "09ID"
+            "code": "10ML",
+            "name": "GRADO EN MATEMATICAS E INFORMÁTICA"
         },
         {
-            "name": "MUIT",
-            "code": "09AQ"
+            "code": "10CD",
+            "name": "GRADO EN CIENCIA DE DATOS E INTELIGENCIA ARTIFICIAL"
         },
         {
-            "name": "Máster ciberseguridad",
-            "code": "09AW"
+            "code": "10AJ",
+            "name": "MASTER UNIVERSITARIO EN INTELIGENCIA ARTIFICIAL"
+        },
+        {
+            "code": "10AK",
+            "name": "MASTER UNIVERSITARIO EN SOFTWARE Y SISTEMAS"
+        },
+        {
+            "code": "10AM",
+            "name": "MASTER UNIVERSITARIO EN INGENIERIA DEL SOFTWARE"
+        },
+        {
+            "code": "10AN",
+            "name": "MASTER UNIVERSITARIO EN INGENIERIA INFORMATICA"
+        },
+        {
+            "code": "10AR",
+            "name": "MASTER INTERUNIVERSITARIO EN MÉTODOS FORMALES EN INGENIERÍA INFORMÁTICA"
+        },
+        {
+            "code": "10AZ",
+            "name": "MASTER UNIVERSITARIO EN INNOVACIÓN DIGITAL"
+        },
+        {
+            "code": "10BA",
+            "name": "MASTER UNIVERSITARIO EN CIENCIA DE DATOS"
+        },
+        {
+            "code": "10BC",
+            "name": "EIT DIGITAL MASTER ON DIGITAL MANUFACTURING. MU INGENIERÍA INFORMÁTICA"
         }
     ],
     "departments": [
         {
-            "name": "SSR",
-            "code": "D550"
+            "code": "D240",
+            "name": "LINGÜÍSTICA APLICADA A LA CIENCIA Y A LA TECNOLOGÍA"
         },
         {
-            "name": "TFB",
-            "code": "D560"
+            "code": "D400",
+            "name": "INGENIERÍA DE ORGANIZACIÓN, ADMINISTRACIÓN DE EMPRESA Y ESTADÍSTICA"
         },
         {
-            "name": "MAT",
-            "code": "D540"
+            "code": "D450",
+            "name": "ARQUITECTURA Y TECNOLOGÍA DE SISTEMAS INFORMÁTICOS"
         },
         {
-            "name": "DIE",
-            "code": "D530"
+            "code": "D460",
+            "name": "INTELIGENCIA ARTIFICIAL"
         },
         {
-            "name": "DIT",
-            "code": "D520"
+            "code": "D470",
+            "name": "LENGUAJES Y SISTEMAS INFORMÁTICOS E INGENIERÍA DE SOFTWARE"
         },
         {
-            "name": "ELF",
-            "code": "D510"
-        },
-        {
-            "name": "LIA",
-            "code": "D240"
-        },
-        {
-            "name": "IOR",
-            "code": "D400"
+            "code": "D540",
+            "name": "MATEMÁTICA APLICADA A LAS TIC"
         }
     ]
 }
